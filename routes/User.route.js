@@ -1,5 +1,7 @@
 import {Router} from "express";
 import {login, register, verifyOtp,resendOtp} from "../controllers/User.controller.js"
+import {checkRole} from "../middlewares/checkRole.js";
+import { protectRoute } from "../middlewares/protectRoute.js";
 
 
 const router = Router();

@@ -17,14 +17,18 @@ const userSchema = new mongoose.Schema({
   role: {
     type: String,
     enum:["user","admin"],
-    default: "user", 
+    default: "user",
   },
   isVerified: {
     type: Boolean,
     default: false, 
   },
   otp: {
-    type: String, 
+    type: String,
+  },
+  phoneNumber:{
+    type: String,
+    required: true
   },
   otpExpires: {
     type: Date, 

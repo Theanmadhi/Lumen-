@@ -11,7 +11,7 @@ const protectRoute = async (req, res, next) => {
     const user = await User.findById(decoded.id);
 
     if (!user) return res.status(401).json({ error: "User not found" });
-    if(!user.isVerified) return res.status(httpStatus.UNAUTHORIZED).json({error:"User needs to verify the email"});
+    // if(!user.isVerified) return res.status(httpStatus.UNAUTHORIZED).json({error:"User needs to verify the email"});
 
     req.user = { id: user._id.toString()};
     next();
