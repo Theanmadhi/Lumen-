@@ -1,1 +1,9 @@
+pandas
+scikit-learn
 openpyxl
+flask
+flask-cors
+faker
+
+# not needed as of now we can run this in python directly.
+# gunicorn

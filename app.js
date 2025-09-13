@@ -3,12 +3,10 @@ dotenv.config();
 import express from "express"
 import cors from "cors"
 import userRoutes from "./src/routes/userRoute.js"
+import adminRoutes from "./src/routes/adminRoute.js";
+import planRoutes from "./src/routes/planRoute.js";
 import connectDB from "./src/config/dbconfig.js";
 
-import userRoutes from "./routes/User.route.js"
-import adminRoutes from "./routes/Admin.route.js";
-import { dashboard } from "./routes/dashboard.route.js";
-import { protectRoute } from "./middlewares/protectRoute.js";
 const app = express();
 app.use(cors());
 app.use(express.json());
@@ -17,11 +15,8 @@ app.use(express.urlencoded({extended: true}));
 const MONGO_URL = process.env.MONGO_URL;
 
 app.use("/users", userRoutes);
-
-app.use("/users",userRoutes);
-app.get("/dashboard",dashboard);
-app.use("/admin",adminRoutes);
-
+app.use("/admin", adminRoutes);
+app.use("/subscriptions", planRoutes);
 
 
 connectDB()

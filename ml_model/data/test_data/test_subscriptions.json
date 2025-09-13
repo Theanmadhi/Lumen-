@@ -1,20 +1,20 @@
-{"User Id":84,"Name":"User84","Phone":1234567884,"Email":"user84@example.com","Status":"active"}
-{"User Id":54,"Name":"User54","Phone":1234567854,"Email":"user54@example.com","Status":"inactive"}
-{"User Id":71,"Name":"User71","Phone":1234567871,"Email":"user71@example.com","Status":"inactive"}
-{"User Id":46,"Name":"User46","Phone":1234567846,"Email":"user46@example.com","Status":"inactive"}
-{"User Id":45,"Name":"User45","Phone":1234567845,"Email":"user45@example.com","Status":"active"}
-{"User Id":40,"Name":"User40","Phone":1234567840,"Email":"user40@example.com","Status":"inactive"}
-{"User Id":23,"Name":"User23","Phone":1234567823,"Email":"user23@example.com","Status":"active"}
-{"User Id":81,"Name":"User81","Phone":1234567881,"Email":"user81@example.com","Status":"active"}
-{"User Id":11,"Name":"User11","Phone":1234567811,"Email":"user11@example.com","Status":"active"}
-{"User Id":1,"Name":"User1","Phone":1234567801,"Email":"user1@example.com","Status":"active"}
-{"User Id":19,"Name":"User19","Phone":1234567819,"Email":"user19@example.com","Status":"inactive"}
-{"User Id":31,"Name":"User31","Phone":1234567831,"Email":"user31@example.com","Status":"active"}
-{"User Id":74,"Name":"User74","Phone":1234567874,"Email":"user74@example.com","Status":"active"}
-{"User Id":34,"Name":"User34","Phone":1234567834,"Email":"user34@example.com","Status":"inactive"}
-{"User Id":91,"Name":"User91","Phone":1234567891,"Email":"user91@example.com","Status":"inactive"}
-{"User Id":5,"Name":"User5","Phone":1234567805,"Email":"user5@example.com","Status":"inactive"}
-{"User Id":77,"Name":"User77","Phone":1234567877,"Email":"user77@example.com","Status":"active"}
-{"User Id":78,"Name":"User78","Phone":1234567878,"Email":"user78@example.com","Status":"active"}
-{"User Id":13,"Name":"User13","Phone":1234567813,"Email":"user13@example.com","Status":"inactive"}
-{"User Id":32,"Name":"User32","Phone":1234567832,"Email":"user32@example.com","Status":"inactive"}
+{"User Id":84,"Name":"User84","Phone":1234567884,"Email":"user84@example.com","Status":null,"age":53,"gender":"Female","location":"Smithstad","current_product_id":null,"previous_products":"[]","duration":0,"rating":3,"engagement_time":2,"discount_history":true}
+{"User Id":54,"Name":"User54","Phone":1234567854,"Email":"user54@example.com","Status":null,"age":59,"gender":"Other","location":"Lake Cynthia","current_product_id":null,"previous_products":"[]","duration":0,"rating":3,"engagement_time":37,"discount_history":false}
+{"User Id":71,"Name":"User71","Phone":1234567871,"Email":"user71@example.com","Status":null,"age":47,"gender":"Male","location":"Changmouth","current_product_id":null,"previous_products":"[]","duration":0,"rating":3,"engagement_time":49,"discount_history":false}
+{"User Id":46,"Name":"User46","Phone":1234567846,"Email":"user46@example.com","Status":null,"age":42,"gender":"Other","location":"Mannborough","current_product_id":null,"previous_products":"[]","duration":0,"rating":3,"engagement_time":33,"discount_history":false}
+{"User Id":45,"Name":"User45","Phone":1234567845,"Email":"user45@example.com","Status":null,"age":30,"gender":"Other","location":"New Ryanberg","current_product_id":null,"previous_products":"[31, 11, 28, 31, 69]","duration":514,"rating":3,"engagement_time":17,"discount_history":false}
+{"User Id":40,"Name":"User40","Phone":1234567840,"Email":"user40@example.com","Status":null,"age":54,"gender":"Male","location":"Barnettville","current_product_id":null,"previous_products":"[]","duration":0,"rating":3,"engagement_time":6,"discount_history":false}
+{"User Id":23,"Name":"User23","Phone":1234567823,"Email":"user23@example.com","Status":null,"age":60,"gender":"Female","location":"Molinaberg","current_product_id":null,"previous_products":"[]","duration":0,"rating":3,"engagement_time":11,"discount_history":true}
+{"User Id":81,"Name":"User81","Phone":1234567881,"Email":"user81@example.com","Status":null,"age":38,"gender":"Other","location":"West Carmen","current_product_id":null,"previous_products":"[45]","duration":503,"rating":3,"engagement_time":24,"discount_history":false}
+{"User Id":11,"Name":"User11","Phone":1234567811,"Email":"user11@example.com","Status":null,"age":44,"gender":"Other","location":"Perrystad","current_product_id":null,"previous_products":"[]","duration":572,"rating":3,"engagement_time":40,"discount_history":false}
+{"User Id":1,"Name":"User1","Phone":1234567801,"Email":"user1@example.com","Status":null,"age":57,"gender":"Other","location":"East Bethany","current_product_id":null,"previous_products":"[]","duration":0,"rating":3,"engagement_time":44,"discount_history":false}
+{"User Id":19,"Name":"User19","Phone":1234567819,"Email":"user19@example.com","Status":null,"age":60,"gender":"Female","location":"South Ginaland","current_product_id":null,"previous_products":"[]","duration":637,"rating":3,"engagement_time":49,"discount_history":false}
+{"User Id":31,"Name":"User31","Phone":1234567831,"Email":"user31@example.com","Status":null,"age":37,"gender":"Other","location":"Alvaradoside","current_product_id":null,"previous_products":"[]","duration":410,"rating":3,"engagement_time":3,"discount_history":false}
+{"User Id":74,"Name":"User74","Phone":1234567874,"Email":"user74@example.com","Status":null,"age":51,"gender":"Female","location":"Cameronberg","current_product_id":null,"previous_products":"[]","duration":0,"rating":3,"engagement_time":15,"discount_history":false}
+{"User Id":34,"Name":"User34","Phone":1234567834,"Email":"user34@example.com","Status":null,"age":52,"gender":"Male","location":"West Keithborough","current_product_id":null,"previous_products":"[]","duration":0,"rating":3,"engagement_time":43,"discount_history":true}
+{"User Id":91,"Name":"User91","Phone":1234567891,"Email":"user91@example.com","Status":null,"age":46,"gender":"Male","location":"West Bettyton","current_product_id":null,"previous_products":"[]","duration":409,"rating":3,"engagement_time":36,"discount_history":true}
+{"User Id":5,"Name":"User5","Phone":1234567805,"Email":"user5@example.com","Status":null,"age":37,"gender":"Male","location":"East Bradley","current_product_id":null,"previous_products":"[]","duration":0,"rating":3,"engagement_time":32,"discount_history":true}
+{"User Id":77,"Name":"User77","Phone":1234567877,"Email":"user77@example.com","Status":null,"age":58,"gender":"Other","location":"Contrerasborough","current_product_id":null,"previous_products":"[]","duration":618,"rating":3,"engagement_time":18,"discount_history":false}
+{"User Id":78,"Name":"User78","Phone":1234567878,"Email":"user78@example.com","Status":null,"age":35,"gender":"Female","location":"Hayesbury","current_product_id":null,"previous_products":"[]","duration":487,"rating":3,"engagement_time":25,"discount_history":false}
+{"User Id":13,"Name":"User13","Phone":1234567813,"Email":"user13@example.com","Status":null,"age":28,"gender":"Other","location":"Scottton","current_product_id":null,"previous_products":"[58]","duration":347,"rating":3,"engagement_time":48,"discount_history":true}
+{"User Id":32,"Name":"User32","Phone":1234567832,"Email":"user32@example.com","Status":null,"age":20,"gender":"Other","location":"Johnsonberg","current_product_id":null,"previous_products":"[]","duration":0,"rating":3,"engagement_time":4,"discount_history":false}
