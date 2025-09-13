@@ -5,5 +5,7 @@ flask
 flask-cors
 faker
 pymongo
+python-dotenv
+
 # not needed as of now we can run this in python directly.
 # gunicorn

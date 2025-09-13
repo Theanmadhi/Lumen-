@@ -2,14 +2,19 @@ from flask import Flask, request, jsonify
 import pandas as pd
 import pickle
 from pymongo import MongoClient
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 
 # -------------------------
 # MongoDB Connection
 # -------------------------
-client = MongoClient("mongodb://localhost:27017/")
-db = client["subscription_db"]
+mongodb_url = os.getenv("MONGODB_URL")
+client = MongoClient(mongodb_url)
+db = client.get_default_database()
 users_collection = db["users"]
 discounts_collection = db["discounts"]
 
