@@ -4,6 +4,7 @@ import mongoose from "mongoose";
 import express from "express"
 import cors from "cors"
 import userRoutes from "./routes/User.route.js"
+import adminRoutes from "./routes/Admin.route.js";
 import { dashboard } from "./routes/dashboard.route.js";
 import { protectRoute } from "./middlewares/protectRoute.js";
 const app = express();
@@ -15,7 +16,7 @@ const MONGO_URL = process.env.MONGO_URL;
 
 app.use("/users",userRoutes);
 app.get("/dashboard",dashboard);
-
+app.use("/admin",adminRoutes);
 
 const start = async ()=>{
     const connectionDb = await mongoose.connect(MONGO_URL)
