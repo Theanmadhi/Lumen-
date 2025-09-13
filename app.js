@@ -5,6 +5,10 @@ import cors from "cors"
 import userRoutes from "./src/routes/userRoute.js"
 import connectDB from "./src/config/dbconfig.js";
 
+import userRoutes from "./routes/User.route.js"
+import adminRoutes from "./routes/Admin.route.js";
+import { dashboard } from "./routes/dashboard.route.js";
+import { protectRoute } from "./middlewares/protectRoute.js";
 const app = express();
 app.use(cors());
 app.use(express.json());
@@ -14,6 +18,9 @@ const MONGO_URL = process.env.MONGO_URL;
 
 app.use("/users", userRoutes);
 
+app.use("/users",userRoutes);
+app.get("/dashboard",dashboard);
+app.use("/admin",adminRoutes);
 
 
 
