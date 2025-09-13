@@ -78,7 +78,6 @@ const planSchema = new mongoose.Schema(
 );
 
 
-
 const Plan = mongoose.model("Plan", planSchema);
 
 export default Plan;
