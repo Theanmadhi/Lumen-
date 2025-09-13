@@ -298,8 +298,7 @@ def main(args):
 
     print("Training done. Best HR@10:", best_hr)
 
-    # example inference helper
-    print("\nExample: get top-10 for first user in test set (if available):")
+
     if len(test_df) > 0:
         example_seq = safe_parse_prev(test_df.iloc[0].get('previous_products', []))
         recs = recommend_for_sequence(model, example_seq, item2idx, idx2item, device, max_len=args.max_len, top_k=10)
