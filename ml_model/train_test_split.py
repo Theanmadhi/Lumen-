@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 import os
 
 # Paths for the datasets
-RAW_FILE = r"ml_model/data/raw_data/SubscriptionUseCase_Dataset.xlsx"
+RAW_FILE = r"ml_model/data/raw_data/Enriched_User_Data.xlsx"
 TRAIN_DIR = r"ml_model/data/train_data/"
 TEST_DIR = r"ml_model/data/test_data/"
 
