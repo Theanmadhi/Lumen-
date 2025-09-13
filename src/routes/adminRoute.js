@@ -1,9 +1,19 @@
-import { Router } from "express";
-import { createPlan, getPlans, getPlanById } from "../controllers/Admin.controller.js";
+import express from "express";
+import {
+  createPlan,
+  getPlans,
+  getPlanById,
+  updatePlan,
+  deletePlan,
+} from "../controllers/planController.js";
 
-const router = Router();
 
-router.route("/plans").post(createPlan).get(getPlans);
-router.route("/plans/:id").get(getPlanById);
+const router = express.Router();
+router.get("/", getPlans);          
+router.get("/:id", getPlanById);   
+
+router.post("/", createPlan); 
+router.put("/:id", updatePlan);   
+router.delete("/:id", deletePlan);  
 
 export default router;
